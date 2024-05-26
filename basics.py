@@ -72,3 +72,11 @@ for x in "yogeshwaram":
 print("--append to list --")
 thislist.append("kiwi")
 print(thislist)
+
+
+print("--loop with range--")
+for x in range(0,5):
+    print("for loop with range: " + str(x))
+
+for x in range(7,9):
+    print("for loop with range: " + str(x))
