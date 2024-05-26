@@ -80,3 +80,9 @@ for x in range(0,5):
 
 for x in range(7,9):
     print("for loop with range: " + str(x))
+
+# string
+print('--string--')
+print('firstline with end', end='')
+print('second line without end')
+print('thrid line')
