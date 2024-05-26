@@ -16,7 +16,7 @@ git log
 to view the files that are changed
 git status
 
-to add files for commiting
+to add changes for commiting
 git add <file name>
 
 to commit files

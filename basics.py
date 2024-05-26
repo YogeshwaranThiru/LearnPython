@@ -41,6 +41,11 @@ print("Length of list is: " + str(len(thislist)))
 print("3rd element from start: ", thislist[2])
 print("2rd element from end: ", thislist[-2])
 
+sorting_test_list = [423, 1, 334,234 ,435]
+print("sorting list: ", str(sorting_test_list))
+sorting_test_list.sort()
+print("sorting list: ", str(sorting_test_list))
+
 ## type()
 print("--type--")
 a = 1
@@ -81,8 +86,35 @@ for x in range(0,5):
 for x in range(7,9):
     print("for loop with range: " + str(x))
 
+
 # string
 print('--string--')
 print('firstline with end', end='')
 print('second line without end')
 print('thrid line')
+
+
+# range funciton and list comprephension
+print('--range funciton and list comprephension--')
+# range func returns and iterable
+# can print using 
+print("range(5) using list comprehension")
+print([x for x in range(5)])
+
+print("range(13,20)) using list comprehension")
+print([x for x in range(13, 20)])
+
+print("range(13,40,3)) using list comprehension")
+print([x for x in range(13, 40, 3)])
+
+print("range(13,5,-1)) using list comprehension")
+print([x for x in range(13, 5, -1)])
+
+print("range(40,3,-3)) using list comprehension")
+print([x for x in range(40, 3, -3)])
+
+
+# list comprehension
+
+print("[x for x in range(200) if (x%5 and x%3) == 0]")
+print([x for x in range(200) if x%5 ==0 and x%3 == 0])
