@@ -64,3 +64,11 @@ print(type(f))
 print('--for--')
 for fruit in thislist:
     print("the fruit is " + fruit)
+
+print('looping a string')
+for x in "yogeshwaram":
+    print(x)
+
+print("--append to list --")
+thislist.append("kiwi")
+print(thislist)
