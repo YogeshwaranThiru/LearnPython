@@ -31,7 +31,14 @@ git pull remote_name Branch_name
 remote: origin
 Branch: git_hub -- master(default)
 
+<<<<<<< HEAD
 to pull-request
+=======
+to check all braches 
+git branch
+
+to create a new branch
+>>>>>>> stash workaround
 git branch <branch_name>
 git checkout <branch_name>
 
@@ -57,3 +64,25 @@ git push --delete origin <branch_name>
 
 to delete last commit
 git reset --hard HEAD~1 // latest commit will delete
+
+confict --> editor --> needed code select in options 
+need to commit the file
+
+
+stash -->to move uncommited change into the tray.
+git stash
+move from  tray to current branch
+git stash pop
+
+to get online chages to local
+git fetch origin
+to allign in sequnce 
+git rebase origin/branch
+
+git rebase --continue // if confilict happens needs to clear and continue with this command
+--> add confict file.
+
+to add latest changes to last commit
+git commit --amend
+
+
